@@ -18,17 +18,24 @@ dependencies {
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 		// https://mvnrepository.com/artifact/org.springframework/spring-webmvc
-	implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.18'
+implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.18'
 	// https://mvnrepository.com/artifact/org.springframework/spring-context
-	implementation group: 'org.springframework', name: 'spring-context', version: '5.3.18'
+implementation group: 'org.springframework', name: 'spring-context', version: '5.3.18'
 	// https://mvnrepository.com/artifact/org.springframework/spring-core
-	implementation group: 'org.springframework', name: 'spring-core', version: '5.3.18'
+implementation group: 'org.springframework', name: 'spring-core', version: '5.3.18'
 	// https://mvnrepository.com/artifact/org.postgresql/postgresql
-	implementation group: 'org.postgresql', name: 'postgresql', version: '42.3.3'
+implementation group: 'org.postgresql', name: 'postgresql', version: '42.3.3'
 	// https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager
-	implementation 'org.hibernate:hibernate-entitymanager:5.6.7.Final'
+implementation 'org.hibernate:hibernate-entitymanager:5.6.7.Final'
 	// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
-	implementation 'org.hibernate:hibernate-core:5.6.7.Final'
+implementation 'org.hibernate:hibernate-core:5.6.7.Final'
+	
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.6.6'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web-services
+implementation 'org.springframework.boot:spring-boot-starter-web-services:2.6.6'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
+testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.6.6'
 }
 
 tasks.named('test') {
