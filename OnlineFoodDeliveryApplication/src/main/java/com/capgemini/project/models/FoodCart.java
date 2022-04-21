@@ -50,8 +50,7 @@ public class FoodCart {
 		return item;
 	}
 	public void setItem(List<Item> item) {
-		this.item = item;  
-		
+		this.item = item;
 	}
 	
 	
