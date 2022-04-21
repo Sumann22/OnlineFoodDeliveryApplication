@@ -10,7 +10,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Bill {
+public class Bill{
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long billId;
