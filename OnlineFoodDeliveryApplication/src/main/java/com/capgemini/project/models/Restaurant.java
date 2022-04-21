@@ -1,7 +1,7 @@
 package com.capgemini.project.models;
 
 
-import java.util.List;
+import java.util.*;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
