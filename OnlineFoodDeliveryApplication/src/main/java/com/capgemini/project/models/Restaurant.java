@@ -28,8 +28,7 @@ public class Restaurant {
     @ManyToMany(targetEntity=Item.class,mappedBy="res",cascade={CascadeType.PERSIST, CascadeType.DETACH,CascadeType.MERGE,CascadeType.REFRESH})
     private List<Item> itemList;
 	public Restaurant() {
-		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Restaurant(Long restaurantId, String restaurantName, Address address, String managerName,
 			String contactNumber,List<Item> itemList) {
