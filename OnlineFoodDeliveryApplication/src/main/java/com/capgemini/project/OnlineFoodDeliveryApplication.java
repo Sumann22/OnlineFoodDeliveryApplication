@@ -8,7 +8,8 @@ public class OnlineFoodDeliveryApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OnlineFoodDeliveryApplication.class, args);
-		System.out.println("connected");
+		System.out.println("connected .");
+		
 	}
 
 }
